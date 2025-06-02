@@ -12,7 +12,7 @@ from .write_agent import WriteArticleTool
 from .sanitizer_agent import SanitizeDataTool
 from .summary_validator import SummarizeValidatorAgent
 from .writer_validator import WriteArticleValidatorAgent
-from .sanitize_validator import SanitizeDataValidatorAgent
+from .santize_validator import SanitizeDataValidatorAgent
 from .refiner_agent import RefinerAgent # New import
 from .validator_agent import ValidatorAgent  # New import
 
