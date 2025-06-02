@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1trjL02M-fM8RamzKphGQYl0XuWdT-9jA
 """
 
-from agent_base import AgentBase
+from .agent_base import AgentBase
 
 class SummarizeValidatorAgent(AgentBase):
     def __init__(self, max_retries=2, verbose=True):
