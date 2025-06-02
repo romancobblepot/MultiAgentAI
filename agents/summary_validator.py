@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1trjL02M-fM8RamzKphGQYl0XuWdT-9jA
 """
 
-!pip install loguru
-!pip3 install python-dotenv
+pip install loguru
+pip3 install python-dotenv
 from agent_base import AgentBase
 
 class SummarizeValidatorAgent(AgentBase):
