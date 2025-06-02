@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1_MDLhQG21MJztaiTHXJgDkm3FvEwrX5R
 """
 
-pip install loguru
-pip3 install python-dotenv
 from agent_base import AgentBase
 
 class SanitizeDataValidatorAgent(AgentBase):
