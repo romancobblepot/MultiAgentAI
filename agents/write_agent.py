@@ -8,7 +8,7 @@ Original file is located at
 """
 
 
-from agent_base import AgentBase
+from .agent_base import AgentBase
 
 class WriteArticleTool(AgentBase):
   def __init__(self,max_retries=3,verbose=True):
