@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1gzeaqywsGIBmcFT0iJUV_YZt13GlcN-5
 """
 
-from agent_base import AgentBase
+from .agent_base import AgentBase
 
 class RefinerAgent(AgentBase):
     def __init__(self, max_retries=2, verbose=True):
