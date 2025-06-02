@@ -7,9 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1om4pX3hSiUeTsS8h8TORYcSHAmi_ViLi
 """
 
-pip install loguru
-pip3 install python-dotenv
-from agent_base import AgentBase
+
+from .agent_base import AgentBase
 
 class WriteArticleValidatorAgent(AgentBase):
     def __init__(self, max_retries=2, verbose=True):
