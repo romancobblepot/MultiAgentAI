@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1Plp0mnTyOo1vAc5oEE0t6Z6tU8m7X-2H
 """
 
-!pip install loguru
-!pip3 install python-dotenv
+pip install loguru
+pip3 install python-dotenv
 from agent_base import AgentBase
 
 class WriteArticleTool(AgentBase):
