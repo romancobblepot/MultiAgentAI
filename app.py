@@ -12,7 +12,7 @@ Original file is located at
 !pip3 install python-dotenv
 !pip install streamlit
 import streamlit as st
-from agent_manager import AgentManager
+from agents.agent_manager import AgentManager
 from utils.logger import logger
 import os
 from dotenv import load_dotenv
