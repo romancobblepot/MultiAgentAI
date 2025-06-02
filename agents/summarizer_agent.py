@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1RGJ4HefhFsVGOqGoVu6744WwYbC7HbPj
 """
 
-from agent_base import AgentBase
+from .agent_base import AgentBase
 
 class SummarizeTool(AgentBase):
   def __init__(self,max_retries=3,verbose=True):
