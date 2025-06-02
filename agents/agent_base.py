@@ -9,15 +9,13 @@ Original file is located at
 
 import openai
 from abc import ABC, abstractmethod
-!pip install loguru
 from loguru import logger
 import os
-!pip3 install python-dotenv
 from dotenv import load_dotenv
 
 load_dotenv()
 
-openai.api_key = os.getenv("API_Key_here")
+openai.api_key = os.getenv("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")
 
 class AgentBase(ABC):
   def __init__(self,name,max_retries=2,verbose=True):
