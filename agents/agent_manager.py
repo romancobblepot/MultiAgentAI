@@ -7,12 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1KikSXXpzP1mZ41K8G-QJjKPrzXCSpudZ
 """
 
-from .summarize_tool import SummarizeTool
-from .write_article_tool import WriteArticleTool
-from .sanitize_data_tool import SanitizeDataTool
-from .summarize_validator_agent import SummarizeValidatorAgent
-from .write_article_validator_agent import WriteArticleValidatorAgent
-from .sanitize_data_validator_agent import SanitizeDataValidatorAgent
+from .summarizer_agent import SummarizeTool
+from .write_agent import WriteArticleTool
+from .sanitizer_agent import SanitizeDataTool
+from .summary_validator import SummarizeValidatorAgent
+from .writer_validator import WriteArticleValidatorAgent
+from .sanitize_validator import SanitizeDataValidatorAgent
 from .refiner_agent import RefinerAgent # New import
 from .validator_agent import ValidatorAgent  # New import
 
