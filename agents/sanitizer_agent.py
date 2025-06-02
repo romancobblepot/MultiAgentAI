@@ -7,10 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1KZKG3w2TWOZ314xm5I1KBM-hVAj8rS9k
 """
 
-from agent_base import AgentBase
+from .agent_base import AgentBase
 
 class SanitizeDataTool(AgentBase):
-  def __init__(self,max_entries=3,verbose=True):
+  def __init__(self,max_retries=3,verbose=True):
     super().__init__(name="SanitizeDataTool",max_retries=max_retries,verbose=verbose)
 
   def execute(self,medical_data):
