@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1_MDLhQG21MJztaiTHXJgDkm3FvEwrX5R
 """
 
-from agent_base import AgentBase
+from .agent_base import AgentBase
 
 class SanitizeDataValidatorAgent(AgentBase):
     def __init__(self, max_retries=2, verbose=True):
